@@ -106,3 +106,27 @@ body {
   color: var(--yellow);
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 327px;
+  }
+
+  .image {
+    width: 279px;
+    height: 200px;
+  }
+
+  .text-extra-bold {
+    font-weight: 800;
+    font-size: 20px;
+  }
+  .text-medium {
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .text-small {
+    font-weight: 500;
+    font-size: 12px;
+  }
+}
