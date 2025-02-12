@@ -96,3 +96,10 @@ body {
   align-items: start;
   justify-content: start;
 }
+
+.hover-yellow:hover,
+.hover-yellow:focus,
+.hover-yellow:active {
+  color: var(--yellow);
+  cursor: pointer;
+}
